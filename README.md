@@ -20,7 +20,7 @@ limitations under the License.
 
 # acosh
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Compute the [hyperbolic arccosine][inverse-hyperbolic] of a number.
 
@@ -165,8 +165,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-base-special-fast-acosh/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-base-special-fast-acosh?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/math-base-special-fast-acosh.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/math-base-special-fast-acosh/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
