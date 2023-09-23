@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import acosh from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-acosh@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-fast-acosh/tags). For example,
+
+```javascript
 import acosh from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-acosh@v0.1.0-deno/mod.js';
 ```
 
@@ -95,7 +100,7 @@ var v = acosh( 0.0 );
 
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import acosh from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-acosh@v0.1.0-deno/mod.js';
+import acosh from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-acosh@deno/mod.js';
 
 var x = linspace( 1.0, 5.0, 103 );
 
