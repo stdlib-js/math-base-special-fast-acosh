@@ -35,30 +35,38 @@ limitations under the License.
 
 > Compute the [hyperbolic arccosine][inverse-hyperbolic] of a number.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-base-special-fast-acosh
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var acosh = require( '@stdlib/math-base-special-fast-acosh' );
+acosh = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-acosh@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var acosh = require( 'path/to/vendor/umd/math-base-special-fast-acosh/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-acosh@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.acosh;
+})();
+</script>
 ```
 
 #### acosh( x )
@@ -109,9 +117,14 @@ var v = acosh( 0.0 );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var linspace = require( '@stdlib/array-base-linspace' );
-var acosh = require( '@stdlib/math-base-special-fast-acosh' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-acosh@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 var x = linspace( 1.0, 5.0, 103 );
 
@@ -119,6 +132,11 @@ var i;
 for ( i = 0; i < x.length; i++ ) {
     console.log( acosh( x[ i ] ) );
 }
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -212,7 +230,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/acosh]: https://github.com/stdlib-js/math-base-special-acosh
+[@stdlib/math/base/special/acosh]: https://github.com/stdlib-js/math-base-special-acosh/tree/umd
 
 <!-- </related-links> -->
 
