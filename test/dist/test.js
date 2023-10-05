@@ -30,10 +30,10 @@ var acosh = require( './../../dist' );
 
 // FIXTURES //
 
-var largerPositive = require( './../..xtures/julia/larger_positive.json' );
-var largePositive = require( './../..xtures/julia/large_positive.json' );
-var mediumPositive = require( './../..xtures/julia/medium_positive.json' );
-var hugePositive = require( './../..xtures/julia/huge_positive.json' );
+var largerPositive = require( './../fixtures/julia/larger_positive.json' );
+var largePositive = require( './../fixtures/julia/large_positive.json' );
+var mediumPositive = require( './../fixtures/julia/medium_positive.json' );
+var hugePositive = require( './../fixtures/julia/huge_positive.json' );
 
 
 // TESTS //
