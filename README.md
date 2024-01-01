@@ -35,14 +35,30 @@ limitations under the License.
 
 > Compute the [hyperbolic arccosine][inverse-hyperbolic] of a number.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-fast-acosh
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import acosh from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-acosh@deno/mod.js';
+var acosh = require( '@stdlib/math-base-special-fast-acosh' );
 ```
 
 #### acosh( x )
@@ -94,8 +110,8 @@ var v = acosh( 0.0 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import acosh from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-acosh@deno/mod.js';
+var linspace = require( '@stdlib/array-base-linspace' );
+var acosh = require( '@stdlib/math-base-special-fast-acosh' );
 
 var x = linspace( 1.0, 5.0, 103 );
 
@@ -132,7 +148,7 @@ for ( i = 0; i < x.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -149,7 +165,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -196,7 +212,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/acosh]: https://github.com/stdlib-js/math-base-special-acosh/tree/deno
+[@stdlib/math/base/special/acosh]: https://github.com/stdlib-js/math-base-special-acosh
 
 <!-- </related-links> -->
 
