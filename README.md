@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+acosh = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-acosh@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-fast-acosh/tags). For example,
+
+```javascript
 acosh = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-acosh@v0.2.0-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var acosh = require( 'path/to/vendor/umd/math-base-special-fast-acosh/index.js' 
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-acosh@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-acosh@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -122,7 +127,7 @@ var v = acosh( 0.0 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-acosh@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-acosh@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
