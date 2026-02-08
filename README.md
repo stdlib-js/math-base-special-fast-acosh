@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import acosh from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-acosh@deno/mod.js';
+import acosh from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-acosh@v0.3.1-deno/mod.js';
 ```
 
 #### acosh( x )
@@ -96,7 +96,7 @@ var v = acosh( 0.0 );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import acosh from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-acosh@deno/mod.js';
+import acosh from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-acosh@v0.3.1-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
